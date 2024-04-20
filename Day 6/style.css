@@ -1,0 +1,16 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1, h2{
+    color :brown;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: brown;
+    color: white;
+}
