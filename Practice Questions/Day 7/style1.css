@@ -1,0 +1,30 @@
+.outer{
+    height:200px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: black;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+.a{
+    border-radius: 15px;
+    background-color: red;
+}
+
+.b{
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.c{
+    border-radius: 15px;
+    background-color: green;
+}
