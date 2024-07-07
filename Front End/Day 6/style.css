@@ -1,0 +1,74 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1, h2{
+    color :brown;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: brown;
+    color: white;
+}
+
+/* descendant color */
+
+p a{
+    background-color: yellow;
+    color: purple;
+}
+
+nav ul li a{
+    color : blue;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+/* child combinator */
+
+div > input {
+    background-color: blue;
+    color: blanchedalmond;
+}
+
+/* Attribute Selector */
+
+input[type]
+{
+    background-color: azure;
+}
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]
+{
+    color: red;
+}
+
+/* pseudo class */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+h1::first-letter{
+    color: black;
+}

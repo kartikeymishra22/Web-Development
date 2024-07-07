@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="n">Name :</label>
+            <input type="text" placeholder="name" id="n" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex :</label>
+            <input type="radio" id="r" vakue="male">
+            <label for="r">Male</label>
+            <input type="radio" id="f" vakue="male">
+            <label for="f">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country :</label>
+            <select name="country" id="country">
+                <option >Select an option</option>
+                <option value="india">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="usa">USA</option>
+                <option value="canda">Canada</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="m">Message :</label>
+            <br>
+            <textarea name="meaasage" id="m" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="check" name="check">
+            <label for="check">Subscribe</label>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
