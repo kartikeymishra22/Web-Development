@@ -1,7 +1,4 @@
-// let n = 5;
+const someVal = require("./Fruits");
 
-// for(let i = 0; i<n; i++){
-//     console.log("helolo", i);
-// }
 
-console.log(process.argv);
+console.log(someVal[0]);
