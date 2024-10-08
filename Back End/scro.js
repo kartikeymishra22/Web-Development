@@ -1,13 +1,4 @@
-// let n = 5;
+import {sum,PI} from "./math.js"
 
-// for(let i = 0; i<=n; i++){
-//     console.log("hello ", i);
-// }
-
-// console.log("Bye");
-
-let args = process.argv;
-
-for(let i = 2; i<args.length; i++){
-    console.log("hello to ", args[i]);
-}
+console.log(sum(1,2));
+console.log(PI);
